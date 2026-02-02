@@ -34,23 +34,27 @@ Since GitHub Pages handles static files, we cannot use dynamic server routes (li
 
 ## 🛠️ Usage
 
-### Prerequisites
-*   A GitHub Account.
-*   A target repository (can be private or public) to create issues in.
-*   A **GitHub Personal Access Token** with `repo` scope.
+### 🔗 Creating Short Links
+There are two ways to create a short link using this project:
 
-### Installation
+#### Method 1: Via the Web Interface (Requires Token)
+1.  Enter the website.
+2.  Provide your **GitHub Personal Access Token** (Repo scope).
+3.  Enter the URL and click **Shorten**.
 
-```bash
-# Clone the repository
-git clone https://github.com/johnson1205/short_url.git
+#### Method 2: Manual Creation (No Token Required!)
+Even without an API Key, you can manually create a short link by interacting directly with the GitHub repository:
 
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-```
+1.  Go to the [Issues Tab](https://github.com/johnson1205/short_url/issues).
+2.  Click **New Issue**.
+3.  **Title**: Anything (e.g., `New Link`).
+4.  **Body**: Paste the **target URL** (e.g., `https://google.com`).
+5.  Click **Submit New Issue**.
+6.  Note the **Issue Number** (e.g., `#123`).
+7.  Convert that number to Base62 (or use a tool).
+    *   *Example*: Issue `#1` -> Code `1`.
+    *   *Example*: Issue `#100` -> Code `1C`.
+8.  Your short link is ready: `https://johnson1205.github.io/short_url/1C`
 
 ### Deployment (GitHub Pages)
 
