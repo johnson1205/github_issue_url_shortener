@@ -29,7 +29,7 @@ Instead of connecting to MySQL, PostgreSQL, or MongoDB, this application treats 
 
 ### Static Hosting Compatibility
 Since GitHub Pages handles static files, we cannot use dynamic server routes (like `/api/[code]`). instead, we rely on a **client-side 404 fallback**:
-*   Requests to `/short_url/1C` return `404.html`.
+*   Requests to `/github_issue_url_shortener/1C` return `404.html`.
 *   Our custom `404` page parses the URL, detects the code `1C`, fetches the data, and performs the redirect.
 
 ## 🛠️ Usage
@@ -45,7 +45,7 @@ There are two ways to create a short link using this project:
 #### Method 2: Manual Creation (No Token Required!)
 Even without an API Key, you can manually create a short link by interacting directly with the GitHub repository:
 
-1.  Go to the [Issues Tab](https://github.com/johnson1205/short_url/issues).
+1.  Go to the [Issues Tab](https://github.com/johnson1205/github_issue_url_shortener/issues).
 2.  Click **New Issue**.
 3.  **Title**: Anything (e.g., `New Link`).
 4.  **Body**: Paste the **target URL** (e.g., `https://google.com`).
@@ -54,7 +54,7 @@ Even without an API Key, you can manually create a short link by interacting dir
 7.  Convert that number to Base62 (or use a tool).
     *   *Example*: Issue `#1` -> Code `1`.
     *   *Example*: Issue `#100` -> Code `1C`.
-8.  Your short link is ready: `https://johnson1205.github.io/short_url/1C`
+8.  Your short link is ready: `https://johnson1205.github.io/github_issue_url_shortener/1C`
 
 ### Deployment (GitHub Pages)
 
