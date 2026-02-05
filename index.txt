@@ -1,0 +1,17 @@
+2:"$Sreact.fragment"
+3:I[5244,[],""]
+4:I[3866,[],""]
+5:I[4242,["727","static/chunks/727-29f9696646da394f.js","345","static/chunks/app/not-found-fa88811278759927.js"],"default"]
+6:I[7033,[],"ClientPageRoot"]
+7:I[5588,["727","static/chunks/727-29f9696646da394f.js","974","static/chunks/app/page-3e7c3cc59ca6f805.js"],"default"]
+a:I[6213,[],"OutletBoundary"]
+c:I[6213,[],"MetadataBoundary"]
+e:I[6213,[],"ViewportBoundary"]
+10:I[4835,[],""]
+1:HL["/github_issue_url_shortener/_next/static/css/7d53e1a5a8b3962c.css","style"]
+0:{"P":null,"b":"Bo4L5e2fqMhWqmrDPbGhI","p":"/github_issue_url_shortener","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github_issue_url_shortener/_next/static/css/7d53e1a5a8b3962c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_e65038 __variable_e45550 antialiased","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L5",null,{}],"notFoundStyles":[]}]}]}]]}],{"children":["__PAGE__",["$","$2","c",{"children":[["$","$L6",null,{"Component":"$7","searchParams":{},"params":{},"promises":["$@8","$@9"]}],null,["$","$La",null,{"children":"$Lb"}]]}],{},null]},null],["$","$2","h",{"children":[null,["$","$2","HNAgc8GMe4MXynJC_kmeg",{"children":[["$","$Lc",null,{"children":"$Ld"}],["$","$Le",null,{"children":"$Lf"}],null]}]]}]]],"m":"$undefined","G":["$10","$undefined"],"s":false,"S":true}
+8:{}
+9:{}
+f:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"GitHub Issue URL Shortener"}],["$","meta","2",{"name":"description","content":"Serverless URL Shortener using GitHub Issues"}],["$","link","3",{"rel":"icon","href":"/github_issue_url_shortener/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+b:null
